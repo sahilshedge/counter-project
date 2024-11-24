@@ -1,0 +1,67 @@
+body{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+#counter-container{
+    height:300px;
+    width: 500px;
+    background-color: rgb(231, 210, 185);
+    border-radius: 4px;
+}
+#counter-container h1{
+    position: relative;
+    left: 10px;
+
+}
+#counter-container p{
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    left: 10px;
+}
+.counter-buttons{
+    height: 57%;
+    width: 95%;
+    background-color: rgb(214, 243, 51);
+    position: relative;
+    left: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 10px;
+    width: 95%;
+}
+#counterlable{
+    width: 95%;
+    height:35px ;
+    background-color: aliceblue;
+    font-size: xx-large;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+#increment{
+    width: 95%;
+    height:35px ;
+    font-size: xx-large;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border-style: none;
+
+}
+#decrement{
+    width:95%;
+    height:35px ;
+    font-size: xx-large;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-style: none;
+}
